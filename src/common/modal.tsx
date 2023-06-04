@@ -1,6 +1,6 @@
 import React, { Dispatch, SetStateAction } from "react";
 import { createPortal } from "react-dom";
-import styles from "./Modal.module.css";
+import styles from "./modal.module.css";
 
 type menuType =
   | Dispatch<SetStateAction<boolean>>

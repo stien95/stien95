@@ -1,0 +1,31 @@
+.modalBg {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    backdrop-filter: blur(50px);
+    inset: 0 0 0 0;
+    z-index: 10;
+}
+.modalBg * {
+    position: relative;
+    z-index: 5;
+}
+.close_modal_btn {
+    margin: 5px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5px;
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+}
+.close_modal_btn > svg {
+    height: 100%;
+    stroke: white;
+    width: 100%;
+}

@@ -1,0 +1,35 @@
+.MoreInformation {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background-color: var(--card-color);
+    padding: 20px;
+}
+.MoreInformation h3{
+    font-size: var(--title);
+    text-align: center;
+}
+.MoreInformation details{
+    border: 1px solid var(--text-color);
+    padding: 10px;
+    border-radius: 10px;
+    font-size: var(--md);
+}
+.MoreInformation summary {
+    cursor: pointer;
+}
+.MoreInformation details ul {
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+.MoreInformation details ul li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.MoreInformation details ul li img {
+    background-color: white;
+    border-radius: 5px;
+}

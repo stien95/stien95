@@ -1,0 +1,9 @@
+.ProjectsContainer {
+  display: flex;
+  flex-direction: column;
+}
+.projects_container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(360px,1fr));
+  gap: 20px;
+}

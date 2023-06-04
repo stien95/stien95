@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+    font-family: "Inter", sans-serif;
+}
+:root {
+    --title: 4.5rem;
+    --subtitle: 3rem;
+    --description: 2rem;
+    --sm: 1.3rem;
+    --md: 1.6rem;
+    --lg: 2.5rem;
+    --desc-color: #ccc;
+    --main-color: #000;
+    --text-color: #fff;
+    --link-color: #36f;
+    --nf-color: #888;
+    --card-color: #050505;
+    --hover-color: #222;
+    --info-btn: #338;
+    --white: #fff;
+    --info-shadow: #008;
+    --card-shadow: #fff;
+}
+body {
+    background-color: var(--main-color);
+    color: var(--text-color);
+}
+h1 {
+    text-align: center;
+    font-size: var(--title);
+}
+h2 {
+    text-align: center;
+    font-size: var(--subtitle);
+    margin-bottom: 20px;
+}
+h3 {
+    font-size: var(--lg);
+}
+p {
+    font-size: var(--description);
+}
+main {
+    padding: 20px;
+}
+a {
+    font-size: var(--sm);
+    text-decoration: none;
+    color: var(--link-color);
+}
+a:hover {
+    text-decoration: underline;
+}

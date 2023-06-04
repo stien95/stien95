@@ -1,0 +1,30 @@
+{
+    "name": "Stien95 - Portfolio",
+    "short_name": "Stien95",
+    "description": "Portfolio of Stien95, React Dev, creator of TipRoulette",
+    "start_url": "/",
+    "display": "standalone",
+    "icons": [
+      {
+        "src": "/favicon.ico",
+        "sizes": "64x64",
+        "type": "image/x-icon"
+      },
+      {
+        "src": "/favicon.ico",
+        "sizes": "128x128",
+        "type": "image/x-icon"
+      },
+      {
+        "src": "/favicon.ico",
+        "sizes": "192x192",
+        "type": "image/x-icon"
+      },
+      {
+        "src": "/favicon.ico",
+        "sizes": "512x512",
+        "type": "image/x-icon"
+      }
+    ]
+  }
+  
